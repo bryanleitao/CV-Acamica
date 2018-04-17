@@ -6,9 +6,12 @@
 }
 body{
 	background: rgb(197, 191, 191);
+	font-family: 'Tajawal', sans-serif;
 }
-h2{
-    padding-top: 15px;
+
+
+h2,h3{
+	color: #7b7588;
 }
 
 .col{
@@ -31,12 +34,12 @@ main{
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
     border-radius: 50%;
+	transform: rotate(385deg);
 }
 img{
 	max-width: 100%;
     height: auto;
 	vertical-align: middle;
-	transform: rotate(385deg)
 }
 aside{
 	width: 20%;
@@ -53,6 +56,9 @@ aside{
     padding: 5px 20px;
     border-radius: 91 px;
 }
+.nav-menu:hover{
+	background: rgb(140, 153, 179);
+}
 
 article{
 	width: 65%;
@@ -62,4 +68,15 @@ article{
 section{
 	background: rgb(239, 230, 230);
 	margin-bottom: 30px;
+	padding: 20px 50px;
+}
+
+section:hover, h3{
+	background: rgb(170, 162, 162);
+}
+#fixedbutton{
+	position: fixed;
+	bottom: 10px;
+	right: 1250px;
+	width: 30px;
 }
