@@ -21,8 +21,8 @@ main{
 	margin-top: 5%; 
 }
 .img-avatar{
-	height: 132px;
-    width: 132px;
+	height: auto;
+    width: 200px;
     border: 5px solid #464646;
     overflow: hidden;
     margin: 0 auto 15px;
@@ -35,7 +35,8 @@ main{
 img{
 	max-width: 100%;
     height: auto;
-    vertical-align: middle;
+	vertical-align: middle;
+	transform: rotate(385deg)
 }
 aside{
 	width: 20%;
