@@ -9,11 +9,6 @@ body{
 	font-family: 'Tajawal', sans-serif;
 }
 
-
-h2,h3{
-	color: #7b7588;
-}
-
 .col{
 	float: left;
 }
@@ -71,8 +66,12 @@ section{
 	padding: 20px 50px;
 }
 
-section:hover, h3{
+section:hover{
 	background: rgb(170, 162, 162);
+}
+
+h3>section:hover{
+	color: rgb(170, 162, 162);
 }
 #fixedbutton{
 	position: fixed;
