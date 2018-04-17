@@ -48,12 +48,29 @@ a:hover {
 }
 #container{
 }
-#left{
+.img-avatar{
+	height: 132px;
+    width: 132px;
+    border: 5px solid #464646;
+    overflow: hidden;
+    margin: 0 auto 15px;
+    opacity: 1;
+    margin-bottom: 0;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+img{
+	max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+header{
 	background: rgb(65, 60, 60);
 	width: 15%;
 }
 
-#right{
+article{
 	width: 75%;
 	margin-left:5%;
 	margin-right:5%;
