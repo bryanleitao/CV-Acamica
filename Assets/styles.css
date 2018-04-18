@@ -41,6 +41,7 @@ main{
 	min-width: 1200px; 
 }
 aside{
+    position: fixed;
 	width: 20%;
 	min-width: 230px;
 	margin-right: 5% !important;
@@ -63,6 +64,7 @@ aside{
 article{
 	width: 65%;
 	min-width: 760px;
+	margin-left: 400px;
 	margin-right:5% !important;
 }
 
@@ -88,22 +90,23 @@ h3>section:hover{
 
 #myBtn {
     display: none; /* Hidden by default */
-    position: fixed; /* Fixed/sticky position */
+    /* position: fixed; Fixed/sticky position */
     /* bottom: 5px; Place the button at the bottom of the page */
     /* right: 18px; Place the button 30px from the right */
     z-index: 99; /* Make sure it does not overlap */
-    border: none; /* Remove borders */
-    outline: none; /* Remove outline */
-	background-image: url("img/up-button.png"); /* Set a background color */
-	background-size: 30px;
-	background-repeat: no-repeat;
-    color: white; /* Text color */
-    cursor: pointer; /* Add a mouse pointer on hover */
-    padding: 15px; /* Some padding */
-    border-radius: 10px; /* Rounded corners */
-    font-size: 18px; /* Increase font size */
+    /* border: none; Remove borders */
+    /* outline: none; Remove outline */
+	/* background-image: url("img/up-button.png"); Set a background color */
+	/* background-size: 30px; */
+	/* background-repeat: no-repeat; */
+    /* color: white; Text color */
+    /* cursor: pointer; Add a mouse pointer on hover */
+    /* padding: 15px; Some padding */
+    /* border-radius: 10px; Rounded corners */
+	/* font-size: 18px; Increase font size */
+	text-align: center;
 }
 
 #myBtn:hover {
-    background-color: #555; /* Add a dark-grey background on hover */
+    /* background-color: #555; Add a dark-grey background on hover */
 }
